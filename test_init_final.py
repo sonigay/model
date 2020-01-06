@@ -975,7 +975,7 @@ while True:
 							result = wks.acell(basicSetting[16]).value
 
 							embed = discord.Embed(
-									title = '▣ 모델명 코드 리스트 ▣',
+									title = ':printer:  모델명 코드 리스트 ',
 									description= '```' + SearchID + ' 모델명 코드는 ' + result + ' 입니다.```',
 									color=0x0000ff
 									)
@@ -1906,7 +1906,7 @@ while True:
 					result = wks.acell(basicSetting[16]).value
 
 					embed = discord.Embed(
-							title = '▣ 모델명 코드 리스트 ▣',
+							title = ':printer:  모델명 코드 리스트 ',
 							description= '```' + SearchID + ' 모델명 코드는 ' + result + ' 입니다.```',
 							color=0x0000ff
 							)
