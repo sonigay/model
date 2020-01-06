@@ -977,7 +977,7 @@ while True:
 							embed = discord.Embed(
 									title = '▣ 모델명 코드 리스트 ▣',
 									description= '```' + SearchID + ' 모델명 코드는 ' + result + ' 입니다.```',
-									color=0xff00ff
+									color=0xff0000
 									)
 							await msg.channel.send(embed=embed, tts=False)
 		else :
