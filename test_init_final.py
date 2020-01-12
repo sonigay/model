@@ -976,7 +976,7 @@ while True:
 
 							embed = discord.Embed(
 									title = ':printer:  모델명 코드 리스트 ',
-									description= '```' + SearchID + ' 모델명 코드는 ' + result + ' 입니다.```',
+									description= '```' + SearchID + ' 모델명 코드는 ' + result + '```',
 									color=0x0000ff
 									)
 							await msg.channel.send(embed=embed, tts=False)
@@ -1907,7 +1907,7 @@ while True:
 
 					embed = discord.Embed(
 							title = ':printer:  모델명 코드 리스트 ',
-							description= '```' + SearchID + ' 모델명 코드는 ' + result + ' 입니다.```',
+							description= '```' + SearchID + ' 모델명 코드는 ' + result + '```',
 							color=0x0000ff
 							)
 					await msg.channel.send(embed=embed, tts=False)
